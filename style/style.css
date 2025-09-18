@@ -81,14 +81,12 @@ nav {
     radial-gradient(circle at 20% 10%, rgba(212, 175, 55, 0.06), transparent 15%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 40%);
   border-radius: 12px;
-  padding: 42px;
   margin-top: 18px;
-  display: grid;
-  grid-template-columns: 1fr 380px;
-  gap: 28px;
-  align-items: center;
 }
-
+.bruh{
+  display: flex;
+  flex-direction: row;
+}
 .hero h2 {
   font-family: Playfair Display, serif;
   font-size: 40px;
@@ -260,5 +258,8 @@ footer {
 
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .bruh{
+    flex-direction: column;
   }
 }

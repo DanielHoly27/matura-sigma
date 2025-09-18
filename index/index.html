@@ -1,16 +1,20 @@
 <!doctype html>
 <html lang="cs">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Maturák — Pařba ve Vegas</title>
   <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
   <div class="container">
     <header>
       <div class="znacka">
-        <div class="logo"><h1>IT4B</h1></div>
+        <div class="logo">
+          <h1>IT4B</h1>
+        </div>
         <div>
           <div style="font-weight:800;color:var(--gold)">Maturák 2025</div>
           <div style="font-size:13px">Pařba ve Vegas — třída IT4B</div>
@@ -35,77 +39,195 @@
           <div class="emotikon">🕒 20:00</div>
         </div>
 
-        <section id="program">
+        <div class="bruh">
+
+          <section id="program">
             <h3>Program večera</h3>
-            <div class="card timeline">
-                <div class="timeline-item"><div class="time">19:30</div><div class="event"><div class="title">Lidi in</div><div class="note">Dveře se otevírají</div></div></div>
-                <div class="timeline-item"><div class="time">20:00</div><div class="event"><div class="title">Zahájení — START</div><div class="note">Úvodní proslov</div></div></div>
-                <div class="timeline-item"><div class="time">20:20</div><div class="event"><div class="title">Nástup a tančení</div><div class="note">Skupinový program třídy</div></div></div>
-                <div class="timeline-item"><div class="time">21:30</div><div class="event"><div class="title">Volná zábava + DJ</div><div class="note">Open dance floor</div></div></div>
-                <div class="timeline-item"><div class="time">23:00</div><div class="event"><div class="title">Proslov a poděkování učitelé</div><div class="note">Krátké poděkování a vyznamenání</div></div></div>
-                <div class="timeline-item"><div class="time">00:00</div><div class="event"><div class="title">Půlnoční představení</div><div class="note">Hlavní číslo večera</div></div></div>
-                <div class="timeline-item"><div class="time">00:45</div><div class="event"><div class="title">Ukončovací video</div><div class="note">Závěrečné video + ukončení programu</div></div></div>
-                <div class="timeline-item"><div class="time">02:00</div><div class="event"><div class="title">DJ dohrává</div><div class="note">Autobusové spoje: 0:40, 1:00, 1:20</div></div></div>
-            </div>
-        </section>
-
+            <ul>
+              <strong> 19:30 </strong>
+              <li>Lidi in</li>
+              <strong> 20:00 - 20:15 </strong>&nbsp;<li> [START]</li>
+              <strong> 20:15 - 20:20 </strong>&nbsp;<li> START INTRA</li>
+              <strong> 20:20 - 20:45 </strong>&nbsp;<li> NASTUP A TANCOVANI</li>
+              <strong> 20:45 - 21:30 </strong>&nbsp;<li> VOLNA ZABAVA</li>
+              <strong> 21:30 - 23:00 </strong>&nbsp;<li> SERPOVANI</li>
+              <strong> 23:00 - 23:10 </strong>&nbsp;<li> PROSLOV PODEKOVANI UCITELE</li>
+              <strong> 23:10 - 23:30 </strong>&nbsp;<li> VOLNA ZABAVA</li>
+              <strong> 23:30 - 23:40 </strong>&nbsp;<li> JUST DANCE</li>
+              <strong> 23:40 - 00:00 </strong>&nbsp;<li> VOLNA ZABAVA / DJ</li>
+              <strong> 00:00 - 00:20 </strong>&nbsp;<li> PULNOČNI PREDSTAVENI</li>
+              <strong> 00:20 - 00:45 </strong>&nbsp;<li> PREDTANCENI VOL.2</li>
+              <strong> 00:45 - 00:50 </strong>&nbsp;<li> UKONCOVACI VIDEO + UKONCENI MATURAKOVEHO PROGRAMU</li>
+              <strong> 00:50 - 2:00 </strong>&nbsp;<li> DJ DOHRAVA</li>
+            </ul>
+          </section>
+          <div>
+            <section id="ceny">
+              <h3>Ceny lístků</h3>
+              <div class="card tickets">
+                <div class="ticket">
+                  <h4>Sezení</h4>
+                  <div class="amount">400 Kč</div>
+                  <div class="note">Vyhrazené místo ke stolku</div>
+                </div>
+                <div class="ticket">
+                  <h4>Stání</h4>
+                  <div class="amount">350 Kč</div>
+                  <div class="note">Volné stání na parketu</div>
+                </div>
+                <div class="ticket">
+                  <h4>Speciální</h4>
+                  <div class="amount">500 Kč</div>
+                  <div class="note">VIP + suvenýr (omezeno)</div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <aside class="vstupenka">
+                <div>Vstupenky</div>
+                <div class="price">Sezení: 400 Kč • Stání: 350 Kč</div>
+                <div>Místo si zajistěte včas — omezený počet sedadel.</div>
+                <a class="btn" href="#ceny">Koupit / rezervovat</a>
+              </aside>
+            </section>
+          </div>
+        </div>
       </div>
-
-      <aside class="vstupenka">
-        <div>Vstupenky</div>
-        <div class="price">Sezení: 400 Kč • Stání: 350 Kč</div>
-        <div>Místo si zajistěte včas — omezený počet sedadel.</div>
-        <a class="btn" href="#ceny">Koupit / rezervovat</a>
-      </aside>
     </main>
 
     <section id="listina">
       <h3>Seznam maturantů</h3>
       <div class="card grid">
         <!--doplnit spoluzaky-->
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+1" alt=""><div class="name">Bock Daniel</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+2" alt=""><div class="name">Boyanov Borislav</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+3" alt=""><div class="name">Brunclík Martin</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+4" alt=""><div class="name">Čonka Gabriel</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+5" alt=""><div class="name">Demianenko Roman</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+6" alt=""><div class="name">Fedorov Marat</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+7" alt=""><div class="name">Firkle Vítek</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+8" alt=""><div class="name">Gemel'a Ivan</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+9" alt=""><div class="name">Holý Daniel</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+10" alt=""><div class="name">Kavnjanyk Alexander</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+11" alt=""><div class="name">Kirpal Jan</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+12" alt=""><div class="name">Kořínský Jakub</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+13" alt=""><div class="name">Koukolík Daniel</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+14" alt=""><div class="name">Lavička David</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+15" alt=""><div class="name">Lavrikov Adam</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+16" alt=""><div class="name">Nguyen Cont Tien Dung</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+17" alt=""><div class="name">Opatrný Šimon</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+18" alt=""><div class="name">Šticha David</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+19" alt=""><div class="name">Toporovska Daryna</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+20" alt=""><div class="name">Vašmucius Vojtěch</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+21" alt=""><div class="name">Veverka Tobiáš</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+22" alt=""><div class="name">Vlček Jakub</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+23" alt=""><div class="name">Vostatek Václav</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+24" alt=""><div class="name">Zeman Daniel</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+25" alt=""><div class="name">Bílá Anastázie</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+26" alt=""><div class="name">Burdová Natálie</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+27" alt=""><div class="name">Heclová Julie</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+28" alt=""><div class="name">Herejková Kristýna</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+29" alt=""><div class="name">Hřebíková Aneta</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+30" alt=""><div class="name">Janková Anna</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+31" alt=""><div class="name">Jirsová Vladimíra</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+32" alt=""><div class="name">Kanalošová Hana</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+33" alt=""><div class="name">Mrázová Aneta</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+34" alt=""><div class="name">Nguyen Quang Truong</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+35" alt=""><div class="name">Novotná Eliška</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+36" alt=""><div class="name">Pfeiferová Linda</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+37" alt=""><div class="name">Pivoňková Veronika</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+38" alt=""><div class="name">Prskavcová Adéla</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+39" alt=""><div class="name">Sedláková Barbora</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+40" alt=""><div class="name">Šambergrová Julie</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+41" alt=""><div class="name">Šedivcová Natálie</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+42" alt=""><div class="name">Štědrá Eva</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+43" alt=""><div class="name">Šváchová Eva</div></div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+1" alt="">
+          <div class="name">Bock Daniel</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+2" alt="">
+          <div class="name">Boyanov Borislav</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+3" alt="">
+          <div class="name">Brunclík Martin</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+4" alt="">
+          <div class="name">Čonka Gabriel</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+5" alt="">
+          <div class="name">Demianenko Roman</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+6" alt="">
+          <div class="name">Fedorov Marat</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+7" alt="">
+          <div class="name">Firkle Vítek</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+8" alt="">
+          <div class="name">Gemel'a Ivan</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+9" alt="">
+          <div class="name">Holý Daniel</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+10" alt="">
+          <div class="name">Kavnjanyk Alexander</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+11" alt="">
+          <div class="name">Kirpal Jan</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+12" alt="">
+          <div class="name">Kořínský Jakub</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+13" alt="">
+          <div class="name">Koukolík Daniel</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+14" alt="">
+          <div class="name">Lavička David</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+15" alt="">
+          <div class="name">Lavrikov Adam</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+16" alt="">
+          <div class="name">Nguyen Cont Tien Dung</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+17" alt="">
+          <div class="name">Opatrný Šimon</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+18" alt="">
+          <div class="name">Šticha David</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+19" alt="">
+          <div class="name">Toporovska Daryna</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+20" alt="">
+          <div class="name">Vašmucius Vojtěch</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+21" alt="">
+          <div class="name">Veverka Tobiáš</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+22" alt="">
+          <div class="name">Vlček Jakub</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+23" alt="">
+          <div class="name">Vostatek Václav</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+24" alt="">
+          <div class="name">Zeman Daniel</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+25" alt="">
+          <div class="name">Bílá Anastázie</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+26" alt="">
+          <div class="name">Burdová Natálie</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+27" alt="">
+          <div class="name">Heclová Julie</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+28" alt="">
+          <div class="name">Herejková Kristýna</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+29" alt="">
+          <div class="name">Hřebíková Aneta</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+30" alt="">
+          <div class="name">Janková Anna</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+31" alt="">
+          <div class="name">Jirsová Vladimíra</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+32" alt="">
+          <div class="name">Kanalošová Hana</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+33" alt="">
+          <div class="name">Mrázová Aneta</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+34" alt="">
+          <div class="name">Nguyen Quang Truong</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+35" alt="">
+          <div class="name">Novotná Eliška</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+36" alt="">
+          <div class="name">Pfeiferová Linda</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+37" alt="">
+          <div class="name">Pivoňková Veronika</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+38" alt="">
+          <div class="name">Prskavcová Adéla</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+39" alt="">
+          <div class="name">Sedláková Barbora</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+40" alt="">
+          <div class="name">Šambergrová Julie</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+41" alt="">
+          <div class="name">Šedivcová Natálie</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+42" alt="">
+          <div class="name">Štědrá Eva</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+43" alt="">
+          <div class="name">Šváchová Eva</div>
+        </div>
       </div>
     </section>
 
@@ -113,23 +235,39 @@
       <h3>Seznam učitelů</h3>
       <div class="card grid">
         <!--doplnit ucitele-->
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+1" alt=""><div class="name">Lenka Zedníková</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+2" alt=""><div class="name">Martin Zábrodský</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+3" alt=""><div class="name">Jakub Kovařík</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+4" alt=""><div class="name">Petr Breit</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+5" alt=""><div class="name">Martin Šilhánek</div></div>
-        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+6" alt=""><div class="name">Jan Bezděka</div></div>
-      </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+1" alt="">
+          <div class="name">Zedníková Lenka</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+2" alt="">
+          <div class="name">Zábrodský Martin</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+3" alt="">
+          <div class="name">Kovařík Jakub</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+4" alt="">
+          <div class="name">Breit Petr</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+5" alt="">
+          <div class="name">Šilhánek Martin</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+6" alt="">
+          <div class="name">Bezděka Jan</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+7" alt="">
+          <div class="name">Renáta Hašková</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+8" alt="">
+          <div class="name">Schejbalová Veronika</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+9" alt="">
+          <div class="name">Bláhová Kateřina</div>
+        </div>
+        <div class="grad"><img src="https://via.placeholder.com/300x180?text=Foto+10" alt="">
+          <div class="name">Kůsová Šárka</div>
+        </div>
     </section>
 
-    <section id="ceny">
-      <h3>Ceny lístků</h3>
-      <div class="card tickets">
-        <div class="ticket"><h4>Sezení</h4><div class="amount">400 Kč</div><div class="note">Vyhrazené místo ke stolku</div></div>
-        <div class="ticket"><h4>Stání</h4><div class="amount">350 Kč</div><div class="note">Volné stání na parketu</div></div>
-        <div class="ticket"><h4>Speciální</h4><div class="amount">500 Kč</div><div class="note">VIP + suvenýr (omezeno)</div></div>
-      </div>
-    </section>
+
 
     <section id="sponzori">
       <h3>Sponzoři</h3>
@@ -156,14 +294,20 @@
       <h3>Kontakt</h3>
       <div class="card" style="display:flex;gap:18px;flex-wrap:wrap;align-items:center">
         <div style="flex:1;min-width:260px">
-          <p style="margin:0;color:var(--muted)">Máte dotaz? Napište na <strong>maturak@IT4B.cz</strong> nebo volejte <strong>+420 123 456 789</strong></p>
-          <p style="margin-top:8px;color:var(--muted)">Sledujte nás: <a href="#">Instagram</a> • <a href="#">Facebook</a></p>
+          <p style="margin:0;color:var(--muted)">Máte dotaz? Napište na <strong>maturak@IT4B.cz</strong> nebo volejte
+            <strong>+420 123 456 789</strong>
+          </p>
+          <p style="margin-top:8px;color:var(--muted)">Sledujte nás: <a href="#">Instagram</a> • <a
+              href="#">Facebook</a></p>
         </div>
         <div style="min-width:240px">
           <form style="display:flex;flex-direction:column;gap:8px">
-            <input placeholder="Jméno" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff">
-            <input placeholder="Email" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff">
-            <textarea placeholder="Zpráva" rows="3" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff"></textarea>
+            <input placeholder="Jméno"
+              style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff">
+            <input placeholder="Email"
+              style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff">
+            <textarea placeholder="Zpráva" rows="3"
+              style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:#fff"></textarea>
             <button class="btn" type="button">Odeslat</button>
           </form>
         </div>
@@ -177,4 +321,5 @@
   </div>
 
 </body>
+
 </html>
